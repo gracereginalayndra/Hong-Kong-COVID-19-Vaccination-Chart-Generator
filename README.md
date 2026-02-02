@@ -63,8 +63,8 @@ The script generates charts similar to the official HKSAR vaccination reports, w
 - Clean grid, legend, and title formatting
 
 ## Data Sources
-- Vaccination data: HKSAR daily vaccination CSV
-- Population data: Census and Statistics Department API (Table 110-01002)
+- Vaccination data: HKSAR daily vaccination CSV: https://data.gov.hk/en-data/dataset/hk-hhb-hhbcovid19-vaccination-rates-over-time-by-age
+- Population data: Census and Statistics Department API (Table 110-01002): https://www.censtatd.gov.hk/en/web_table.html?id=110-01002
 
 ## Notes
 - Uses a global constant `N` for number of vaccine doses (default 7)
