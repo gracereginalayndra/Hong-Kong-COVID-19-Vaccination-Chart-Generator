@@ -29,7 +29,7 @@ pip install pandas matplotlib requests
 ## Project Structure
 ```
 .
-├── q5.py                          # Main script with all required functions
+├── vaccinestat.py                          # Main script with all required functions
 ├── data/                          # Optional: sample raw data files
 ├── outputs/                       # Generated charts
 ├── README.md
@@ -69,11 +69,8 @@ The script generates charts similar to the official HKSAR vaccination reports, w
 ## Notes
 - Uses a global constant `N` for number of vaccine doses (default 7)
 - Implements cumulative percentage display for clearer interpretation
-- All visual settings (font size, colors, layout) follow assignment specifications
 
 ## Acknowledgments
 - Data provided by HKSAR Government
 - Inspired by official COVID-19 vaccination dashboards
 ```
-
-Let me know if you'd like the full Python implementation for Question 5 as well.
